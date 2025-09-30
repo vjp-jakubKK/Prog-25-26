@@ -7,7 +7,7 @@ package ejercicio.pkg24;
 import java.util.Scanner; // importamos java util 
 /**
  *
- * @author admin
+ * @author alumno
  */
 public class Ejercicio24 {
 

@@ -7,7 +7,7 @@ package ejercicio.pkg26;
 import java.util.Scanner;
 /**
  *
- * @author admin
+ * @author alumno
  */
 public class Ejercicio26 {
 

@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author admin
+ * @author alumno
  */
 public class Ejercicio21 {
 
