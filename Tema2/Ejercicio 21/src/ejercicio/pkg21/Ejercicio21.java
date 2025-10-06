@@ -27,9 +27,8 @@ public class Ejercicio21 {
         horas=tiempo/3600;                        // hacemos los calculos necesarios para convertir el tiempo
         tiempo=tiempo%3600;                       // en dias, horas, minutos y segundos
         minutos=tiempo/60;
-        tiempo=tiempo%60;
         segundos=minutos%60;
-        System.out.println(tiempo + " segundos hacen un total de: " + dias + " dias, " + horas + " horas, " + minutos + " minutos y " + segundos + " segundos.");
+        System.out.println("Esa cantidad de segundos hacen un total de: " + dias + " dias, " + horas + " horas, " + minutos + " minutos y " + segundos + " segundos.");
     }
     
 }
