@@ -46,20 +46,22 @@ public class Ejercicio27 {
                 }
                 case 2: {
                     resta = numero1 - numero2;
-                    System.out.println("El resultado de la suma es: " + resta);
+                    System.out.println("El resultado de la resta es: " + resta);
                     break;
                 }
                 case 3: {
                     multiplicacion = numero1 * numero2;
-                    System.out.println("El resultado de la suma es: " + multiplicacion);
+                    System.out.println("El resultado de la multiplicación es: " + multiplicacion);
                     break;
                 }
                 case 4: {
                     division = numero1 / numero2;
-                    System.out.println("El resultado de la suma es: " + division);
+                    System.out.println("El resultado de la división es: " + division);
+                    break;
                 }
                 case 5: {
                     System.out.println("Gracias por usar el programa!");
+                    break;
                 }
             }
         } while (opcion !=5);
@@ -67,8 +69,8 @@ public class Ejercicio27 {
         catch (InputMismatchException e) {
             System.out.println("Introduce un número válido.");
         }
-        
-        
+        catch (ArithmeticException e) {
+            System.out.println("No puedes dividir entre 0");
+        }
     }
-    
 }

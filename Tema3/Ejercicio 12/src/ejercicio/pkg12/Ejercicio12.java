@@ -18,7 +18,7 @@ public class Ejercicio12 {
         
         do {
             if (contador % 2 == 0) { //ponemos un if para que si el resto es igual a 0 el programa sepa que este es par
-                System.out.println("Par " +contador);
+                System.out.println(contador);
             }
             contador++; //aumentamos en 1 contador y se repite el bucle
         }while(contador <=133); //ponemos el limite en 133 para que salga del bucle
