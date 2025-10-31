@@ -20,7 +20,6 @@ public class Ejercicio06 {
         
         Scanner entrada = new Scanner(System.in);
         
-        
         System.out.println("Introduce la nota recibida: ");
         nota = entrada.nextInt();
         
