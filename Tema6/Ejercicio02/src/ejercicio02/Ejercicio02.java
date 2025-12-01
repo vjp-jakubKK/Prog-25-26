@@ -14,11 +14,20 @@ public class Ejercicio02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Persona p1 = new Alumno("Carlos", "2ºA");
-        Persona p2 = new Profesor("Laura", "Informática");
+        Profesor profesor = new Profesor("Carlos", "Matemáticas");
+        Alumno alumno = new Alumno("Lucía", "2ºB");
 
-        System.out.println(p1.saludar());
-        System.out.println(p2.saludar());
+        System.out.println("SALUDOS SIN POLIMORFISMO:");
+        System.out.println(profesor.Saludar());
+        System.out.println(alumno.Saludar());
+
+        // Polimorfismo
+        Persona p1 = new Profesor("Ana", "Historia");
+        Persona p2 = new Alumno("Miguel", "1ºA");
+
+        System.out.println("SALUDOS CON POLIMORFISMO:");
+        System.out.println(p1.Saludar());
+        System.out.println(p2.Saludar());
     }
     
 }
