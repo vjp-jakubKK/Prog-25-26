@@ -9,14 +9,10 @@ package ejercicio01;
  * @author alumno
  */
 public abstract class Calculadora {
-    public int numero;
+    protected int numero;
     
     public Calculadora (int numero) {
         this.numero = numero;
-    }
-    
-    public Calculadora() {
-        
     }
     
     public abstract void realizarOperacion();
