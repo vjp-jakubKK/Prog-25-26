@@ -52,6 +52,7 @@ public class Ejercicio03 {
         return array;
     }
     
+    // método para mostrar el array 
     public static void mostrarArray(int[] array) {
         int i;
         
